@@ -1,0 +1,2106 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command line to run this workspace:
+#        fme.exe austinApartments.fmw
+#          --FME_LAUNCH_VIEWER_APP "YES"
+#    
+#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
+#!   ARCGIS_COMPATIBILITY="ARCGIS_AUTO"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION="&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This sample workspace reads in data, filters by landmark type, creates a category attribute for feature type fanout, applies styling and then writes to a KML file.&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Published parameters allow the user to select:&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&#10;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;initial file to import&lt;/li&gt;&lt;/ul&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;"
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="4108.28 1518"
+#!   DOC_TOP_LEFT="-1037.64 -687.244"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="23248"
+#!   FME_BULK_MODE_THRESHOLD="2000"
+#!   FME_DOCUMENT_GUID="53474900-56ab-41f3-abd8-51b083156507"
+#!   FME_DOCUMENT_PRIORGUID="e1b4e282-1d30-4427-b67a-05872f0727a9,6d5b9fc1-d011-4a61-97cd-84d2362f820d,1ebef0fa-d9a1-4832-a9b5-7b322960e87e,eb231747-0676-4a88-a8c8-0dd1488705ad,ad501101-9867-47bf-aa94-9e17b1c4966d,3eac69ce-15ad-4f27-97d7-e26dbec12fc0,e8136e94-427a-4d01-aca5-c8943a924b39,590d0bc7-f3d2-4d2f-9b8c-63f63f68fcdb,a87042e6-f319-4b93-b57e-67199799654b,b17f5794-5e6e-4fc5-ab2d-4a9f27695be2,3095b482-2b4f-471b-8600-5dc4e27487c8,ecba1c3a-5a43-4369-b9f6-0b317ff5a788,9aff01f5-e08e-4943-aa1d-7b84c9bd57af"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_NAMES_ENCODING="UTF-8"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY="22-03-2023,Kate&lt;space&gt;Brillinger,Updated&lt;space&gt;Attribute&lt;space&gt;Creator&lt;space&gt;transformer&lt;space&gt;to&lt;space&gt;latest&lt;space&gt;version"
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2023.0.0.0 (20230302 - Build 23248 - WIN64)"
+#!   LAST_SAVE_DATE="2023-03-22T08:30:52"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="37"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE="City of Austin: Apartments and other (SPATIALITE 2 KML)"
+#!   USAGE=""
+#!   USE_MARKDOWN="NO"
+#!   VIEW_POSITION="-1031.26 1025.01"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="100"
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="SPATIALITE_NATIVE"
+#!   DATASET="$(SourceDataset_SPATIALITE_NATIVE)"
+#!   KEYWORD="SPATIALITE_NATIVE_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="sqlite3_sql_statement &quot;&quot; sqlite3_where_clause &quot;&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="db_type varchar(254) fme_basename varchar(50) fme_color varchar(50) fme_dataset varchar(50) fme_feature_type varchar(50) fme_fill_color varchar(50) fme_geometry varchar(50) fme_primary_axis double fme_rotation double fme_secondary_axis double fme_start_angle double fme_sweep_angle double fme_text_size double fme_text_string varchar(50) fme_type varchar(50) multi_reader_full_id integer multi_reader_id integer multi_reader_keyword varchar(50) multi_reader_type varchar(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP sqlite3_reader_table_group sqlite3_where_clause Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT sqlite3_where_clause WHERE Clause&quot; &quot;&quot; "
+#!   ATTR_INDEX_TYPES="Indexed Unique"
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   FTTR_TYPE="LISTBOX_ENCODED"
+#!   GENERATE_FME_BUILD_NUM="22242"
+#!   COORDSYS="LL84"
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="SPATIALITE_NATIVE_IN_BEGIN_SQL SPATIALITE_NATIVE_IN_END_SQL SPATIALITE_NATIVE_OUT_WRITER_MODE SPATIALITE_NATIVE_OUT_TRANSACTION_INTERVAL SPATIALITE_NATIVE_OUT_BEGIN_SQL{0} SPATIALITE_NATIVE_OUT_END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ALLOW_DATASET_CONFLICT"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING_HISTORIC"
+#!   VALUE="ALL"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="spatialite file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the SpatiaLite Database file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the SpatiaLite Database file"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="OGCKML"
+#!   DATASET="$(FME_MF_DIR)austinApartments.kml"
+#!   KEYWORD="OGCKML_1"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="99999"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="KML21_INFORMATION_POINT_ICON &quot;&quot; KML21_OPACITY &quot;&quot; KML21_FILL_OPACITY &quot;&quot; KML21_PEN_OPACITY &quot;&quot; KML21_ICON_COLOR &quot;&quot; KML21_FILL_COLOR &quot;&quot; KML21_PEN_COLOR &quot;&quot; KML21_SORT_BY_ATTRIBUTE &quot;&quot; KML21_ATTR_IN_DESCRIPTION &quot;&quot; KML21_HTML_DESCRIPTIONS &quot;&quot; KML21_DOCUMENT_FILENAME &quot;&quot; KML21_CREATE_FOLDER_FOR_FEATURE_TYPE &quot;&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_basename kml_char(50) fme_color kml_char(50) fme_dataset kml_char(50) fme_feature_type kml_char(50) fme_fill_color kml_char(50) fme_fill_opacity kml_real64 fme_geometry kml_char(50) fme_opacity kml_real64 fme_pen_opacity kml_real64 fme_primary_axis kml_real64 fme_rotation kml_real64 fme_secondary_axis kml_real64 fme_start_angle kml_real64 fme_sweep_angle kml_real64 fme_text_size kml_real64 fme_text_string kml_char(50) fme_type kml_char(50) kml_address kml_buffer kml_altitude kml_real64 kml_altitude_mode kml_char(50) kml_animated_update kml_buffer kml_atom_author_email kml_buffer kml_atom_author_name kml_buffer kml_atom_link_href kml_buffer kml_atom_link_rel kml_buffer kml_attribute_table_title kml_buffer kml_balloon_color kml_char(10) kml_balloon_opacity kml_real64 kml_balloon_text_color kml_char(10) kml_balloon_text_opacity kml_real64 kml_balloonstyle_bgcolor kml_char(10) kml_balloonstyle_raw_text kml_buffer kml_balloonstyle_text kml_buffer kml_balloonstyle_text_color kml_char(10) kml_camera_altitude kml_real64 kml_camera_altitude_mode kml_char(50) kml_camera_gx_timespan_begin kml_datetime kml_camera_gx_timespan_end kml_datetime kml_camera_gx_timestamp_when kml_datetime kml_camera_heading kml_real64 kml_camera_latitude kml_real64 kml_camera_longitude kml_real64 kml_camera_roll kml_real64 kml_camera_tilt kml_real64 kml_color kml_char(8) kml_common_style kml_buffer kml_cookie kml_buffer kml_create_info_point kml_char(3) kml_data{}.display_name kml_buffer kml_data{}.display_name_raw_text kml_buffer kml_data{}.name kml_buffer kml_data{}.value kml_buffer kml_description kml_buffer kml_description_raw_text kml_buffer kml_description_text kml_buffer kml_document kml_buffer kml_document_href kml_buffer kml_document_path kml_buffer kml_draw_order kml_int16 kml_expires kml_datetime kml_extended_data_xml kml_buffer kml_extended_data_xmlns_prefix kml_buffer kml_extended_data_xmlns_url kml_buffer kml_extrude kml_int16 kml_fly_to_view kml_int16 kml_gx_altitude_mode kml_char(50) kml_gx_balloon_visibility kml_int16 kml_gx_camera_altitude_mode kml_char(50) kml_gx_duration kml_int16 kml_gx_flyto_mode kml_char(10) kml_gx_latlonaltbox_altitude_mode kml_char(50) kml_gx_lookat_altitude_mode kml_char(50) kml_gx_play_mode kml_char(20) kml_gx_timespan_begin kml_datetime kml_gx_timespan_end kml_datetime kml_gx_timestamp_when kml_datetime kml_hotspot_x kml_int16 kml_hotspot_xunits kml_char(20) kml_hotspot_y kml_int16 kml_hotspot_yunits kml_char(20) kml_href kml_buffer kml_icon kml_buffer kml_icon_color kml_char(50) kml_icon_href kml_buffer kml_icon_http_query kml_buffer kml_icon_opacity kml_real64 kml_icon_refresh_interval kml_int16 kml_icon_refresh_mode kml_char(50) kml_icon_temp_file_location kml_buffer kml_icon_view_bound_scale kml_real64 kml_icon_view_format kml_buffer kml_icon_view_refresh_mode kml_char(50) kml_icon_view_refresh_time kml_int16 kml_iconstyle_color kml_char(10) kml_iconstyle_color_mode kml_char(20) kml_iconstyle_heading kml_real64 kml_iconstyle_scale kml_real64 kml_id kml_buffer kml_imagepyramid_gridorigin kml_buffer kml_imagepyramid_maxheight kml_int16 kml_imagepyramid_maxwidth kml_int16 kml_imagepyramid_tilesize kml_real64 kml_label_color kml_char(50) kml_label_opacity kml_real64 kml_labelstyle_color kml_char(10) kml_labelstyle_color_mode kml_char(20) kml_labelstyle_scale kml_real64 kml_latlonaltbox_altitude_mode kml_char(50) kml_latlonaltbox_east kml_char(255) kml_latlonaltbox_max_altitude kml_real64 kml_latlonaltbox_min_altitude kml_real64 kml_latlonaltbox_north kml_real64 kml_latlonaltbox_south kml_real64 kml_latlonaltbox_west kml_real64 kml_latlonbox_east kml_real64 kml_latlonbox_north kml_real64 kml_latlonbox_rotation kml_real64 kml_latlonbox_south kml_real64 kml_latlonbox_west kml_real64 kml_linestyle_color kml_char(10) kml_linestyle_color_mode kml_char(20) kml_linestyle_label_visibility kml_boolean kml_linestyle_physical_width kml_real64 kml_linestyle_width kml_real64 kml_link_description kml_buffer kml_link_href kml_buffer kml_link_http_query kml_buffer kml_link_name kml_buffer kml_link_refresh_interval kml_real64 kml_link_refresh_mode kml_char(50) kml_link_snippet kml_buffer kml_link_snippet_max_lines kml_int16 kml_link_view_bound_scale kml_real64 kml_link_view_format kml_buffer kml_link_view_refresh_mode kml_char(50) kml_link_view_refresh_time kml_int16 kml_liststyle_bgcolor kml_char(50) kml_liststyle_item_icon kml_buffer kml_liststyle_item_icon{}.href kml_buffer kml_liststyle_item_icon{}.state kml_char(50) kml_liststyle_list_item_type kml_char(50) kml_location_altitude kml_real64 kml_location_latitude kml_real64 kml_location_longitude kml_real64 kml_lod_max_fade_extent kml_real64 kml_lod_max_lod_pixels kml_real64 kml_lod_min_fade_extent kml_real64 kml_lod_min_lod_pixels kml_real64 kml_lookat_altitude kml_real64 kml_lookat_altitude_mode kml_char(20) kml_lookat_gx_timespan_begin kml_datetime kml_lookat_gx_timespan_end kml_datetime kml_lookat_gx_timestamp_when kml_datetime kml_lookat_heading kml_real64 kml_lookat_latitude kml_real64 kml_lookat_longitude kml_real64 kml_lookat_range kml_real64 kml_lookat_tilt kml_real64 kml_max_session_length kml_real64 kml_message kml_buffer kml_min_refresh_period kml_real64 kml_name kml_buffer kml_open kml_int16 kml_orientation_heading kml_real64 kml_orientation_roll kml_real64 kml_orientation_tilt kml_real64 kml_overlayxy_x kml_real64 kml_overlayxy_xunits kml_char(20) kml_overlayxy_y kml_real64 kml_overlayxy_yunits kml_char(20) kml_parent kml_buffer kml_phone_number kml_buffer kml_polystyle_color kml_char(10) kml_polystyle_color_mode kml_char(20) kml_polystyle_fill kml_real64 kml_polystyle_outline kml_int16 kml_raw_text kml_buffer kml_refresh_visibility kml_int16 kml_roll kml_real64 kml_rotation kml_real64 kml_rotationxy_x kml_real64 kml_rotationxy_xunits kml_char(20) kml_rotationxy_y kml_real64 kml_rotationxy_yunits kml_char(20) kml_scale_x kml_real64 kml_scale_y kml_real64 kml_scale_z kml_real64 kml_schema_data{}.name kml_buffer kml_schema_data{}.value kml_buffer kml_schema_url kml_buffer kml_screenxy_x kml_real64 kml_screenxy_xunits kml_char(20) kml_screenxy_y kml_real64 kml_screenxy_yunits kml_char(20) kml_shape kml_buffer kml_size_x kml_real64 kml_size_xunits kml_char(20) kml_size_y kml_real64 kml_size_yunits kml_char(20) kml_snippet kml_buffer kml_snippet_raw_text kml_buffer kml_sort_value kml_buffer kml_style_id kml_buffer kml_style_url kml_buffer kml_style_url_highlight kml_buffer kml_style_url_normal kml_buffer kml_target_href kml_buffer kml_target_style kml_buffer kml_target_style_highlight kml_buffer kml_target_style_normal kml_buffer kml_tessellate kml_int16 kml_timespan_begin kml_datetime kml_timespan_end kml_datetime kml_timestamp_when kml_datetime kml_tour kml_buffer kml_tour_stop_delay_duration kml_int16 kml_tour_stop_delay_type kml_char(10) kml_tour_stop_display_balloon kml_char(3) kml_tour_stop_flyto_duration kml_int16 kml_tour_stop_flyto_mode kml_char(20) kml_tour_stop_tour_duration kml_int16 kml_tour_stop_tour_name kml_buffer kml_tour_stop_view_heading kml_char(25) kml_tour_stop_view_perspective kml_char(15) kml_tour_stop_view_range kml_char(25) kml_tour_stop_view_tilt kml_char(25) kml_update_mode kml_char(10) kml_viewvolume_bottomfov kml_int16 kml_viewvolume_leftfov kml_int16 kml_viewvolume_near kml_int16 kml_viewvolume_rightfov kml_int16 kml_viewvolume_topfov kml_int16 kml_visibility kml_int16"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP ogc_layer_group ogc_appearance_group%ogc_advanced_group Feature Type&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP ogc_appearance_group KML21_FILL_COLOR%KML21_FILL_OPACITY%KML21_PEN_COLOR%KML21_PEN_OPACITY%KML21_SORT_BY_ATTRIBUTE%KML21_INFORMATION_POINT_ICON%KML21_ICON_COLOR Appearance&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP ogc_advanced_group KML21_ATTR_IN_DESCRIPTION%KML21_DOCUMENT_FILENAME%KML21_CREATE_FOLDER_FOR_FEATURE_TYPE%KML21_HTML_DESCRIPTIONS Advanced&quot; &quot;&quot; &quot;GUI OPTIONAL ICONPICK KML21_INFORMATION_POINT_ICON icons Information Point Icon&quot; &quot;&quot; &quot;GUI OPTIONAL COLOR_PICK KML21_ICON_COLOR Icon Color&quot; &quot;&quot; &quot;GUI OPTIONAL COLOR_PICK KML21_FILL_COLOR Fill Color&quot; &quot;&quot; &quot;GUI OPTIONAL FLOAT KML21_FILL_OPACITY Fill Opacity&quot; &quot;&quot; &quot;GUI OPTIONAL COLOR_PICK KML21_PEN_COLOR Pen Color&quot; &quot;&quot; &quot;GUI OPTIONAL FLOAT KML21_PEN_OPACITY Pen Opacity&quot; &quot;&quot; &quot;GUI OPTIONAL ATTR KML21_SORT_BY_ATTRIBUTE \&quot; \&quot; Sort By Attribute&quot; &quot;&quot; &quot;GUI OPTIONAL CHOICE KML21_HTML_DESCRIPTIONS yes%no Use HTML in Description Balloon&quot; &quot;&quot; &quot;GUI OPTIONAL CHOICE KML21_ATTR_IN_DESCRIPTION yes%no Create Attribute Table in Description Balloon&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT KML21_DOCUMENT_FILENAME Parent Document File Name&quot; &quot;&quot; &quot;GUI CHOICE KML21_CREATE_FOLDER_FOR_FEATURE_TYPE yes%no Create Folder for Feature Type&quot; yes "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE_OR_URL"
+#!   FTTR_TYPE=""
+#!   GENERATE_FME_BUILD_NUM="22242"
+#!   COORDSYS="LL84"
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="OGCKML_OUT_OUTPUT_SCHEMA OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS OGCKML_OUT_LOG_VERBOSE OGCKML_OUT_ORIENTATION OGCKML_OUT_DATASET_HINT OGCKML_OUT_STYLE_DOC OGCKML_OUT_SCHEMA_DOC OGCKML_OUT_DETECT_RASTERS OGCKML_OUT_RASTER_MODE OGCKML_OUT_RASTER_FORMAT OGCKML_OUT_TEXTURE_FORMAT OGCKML_OUT_COPY_ICON OGCKML_OUT_REGIONATE_DATA OGCKML_OUT_EXEC_GO_PIPELINE OGCKML_OUT_EXEC_PO_PIPELINE OGCKML_OUT_OMIT_DOCUMENT_ELEMENT OGCKML_OUT_CREATE_EMPTY_FOLDERS OGCKML_OUT_KML21_TARGET_HREF OGCKML_OUT_KML21_FANOUT_TYPE OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS OGCKML_OUT_WRITE_TEXTURES_TXT_FILE KML21_INFORMATION_POINT_ICON KML21_REGIONATOR_PIPELINE KML21_GO_PYRAMIDER_PIPELINE KML21_PO_PYRAMIDER_PIPELINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="kml file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE=".kml application/vnd.google-earth.kml+xml .kmz application/vnd.google-earth.kmz ADD_DISPOSITION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="ALWAYS"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Google Earth KML file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="SUPPORTS_ESTABLISHED_CACHE"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Google Earth KML File"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varchar(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varchar(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varchar(20)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="real(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(255)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_buffer"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_int16"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_int16"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_int16"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_int32"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_int32"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_real32"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(20)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(20)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_char(1)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="OGCKML"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_real64"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="OGCKML"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_multilinestring"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_line"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_line"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_line"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_multipolygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_polygon"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_polygon"
+#!   FME_TYPE="fme_voxel_grid"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_geometrycollection"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_geometry"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_geometry"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="db_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="SPATIALITE_NATIVE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_aggregate"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_line"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_raster"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_surface"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_solid"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_line"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_area"
+#!   FME_TYPE="fme_voxel_grid"
+#!   FORMAT="OGCKML"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="kml_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="OGCKML"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Landmarks"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="2"
+#!   FEAT_GEOMTYPE="db_point"
+#!   POSITION="-992.51012510125099 199.3793437934379"
+#!   BOUNDING_RECT="-992.51012510125099 199.3793437934379 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="SPATIALITE_NATIVE_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   READ_SELECT_ATTRS="true"
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="CFCC" ATTR_TYPE="varchar(4)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="FILE" ATTR_TYPE="integer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LALAT" ATTR_TYPE="integer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LALONG" ATTR_TYPE="integer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LANAME" ATTR_TYPE="varchar(31)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LAND" ATTR_TYPE="integer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="MODULE" ATTR_TYPE="varchar(9)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="OBJECTID" ATTR_TYPE="integer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SOURCE" ATTR_TYPE="varchar(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="sqlite3_reader_table_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="sqlite3_where_clause" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Landmarks"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="32"
+#!   FEAT_GEOMTYPE="kml_point"
+#!   POSITION="2616.6476564765649 -40.244343693437031"
+#!   BOUNDING_RECT="2616.6476564765649 -40.244343693437031 454 71"
+#!   ORDER="500000000000022"
+#!   COLLAPSED="true"
+#!   KEYWORD="OGCKML_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="CFCC" ATTR_TYPE="kml_char(4)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="FILE" ATTR_TYPE="kml_char(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LALAT" ATTR_TYPE="kml_char(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LALONG" ATTR_TYPE="kml_char(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LANAME" ATTR_TYPE="kml_char(31)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LAND" ATTR_TYPE="kml_char(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="MODULE" ATTR_TYPE="kml_char(9)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="OBJECTID" ATTR_TYPE="kml_char(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SOURCE" ATTR_TYPE="kml_char(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_ATTR_IN_DESCRIPTION" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_CREATE_FOLDER_FOR_FEATURE_TYPE" PARM_VALUE="yes"/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_DOCUMENT_FILENAME" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_FILL_COLOR" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_FILL_OPACITY" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_HTML_DESCRIPTIONS" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_ICON_COLOR" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_INFORMATION_POINT_ICON" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_PEN_COLOR" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_PEN_OPACITY" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="KML21_SORT_BY_ATTRIBUTE" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="ogc_advanced_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="ogc_appearance_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="ogc_layer_group" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <SERVICES>
+#! <SERVICE
+#!   NAME="fmedatadownload"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="ADVANCED"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="FAILURE_TOPICS"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="HTTP_DATASET"
+#!   VALUE="SPATIALITE_NATIVE_1"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NOTIFICATION_WRITER"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="OUTPUT_WRITER"
+#!   VALUE="OGCKML_1"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="SUCCESS_TOPICS"
+#!   VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! <SERVICE
+#!   NAME="fmedatastreaming"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="ADVANCED"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="FAILURE_TOPICS"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="HTTP_DATASET"
+#!   VALUE="SPATIALITE_NATIVE_1"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NOTIFICATION_WRITER"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="OUTPUT_WRITER"
+#!   VALUE="OGCKML_1"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="SUCCESS_TOPICS"
+#!   VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! <SERVICE
+#!   NAME="fmejobsubmitter"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="ADVANCED"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="FAILURE_TOPICS"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="HTTP_DATASET"
+#!   VALUE="SPATIALITE_NATIVE_1"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NOTIFICATION_WRITER"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="SUCCESS_TOPICS"
+#!   VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! <SERVICE
+#!   NAME="fmekmllink"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/Link/refreshInterval"
+#!   VALUE="60"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/Link/refreshMode"
+#!   VALUE="onInterval"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/Link/viewFormat"
+#!   VALUE="BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/Link/viewRefreshMode"
+#!   VALUE="onRegion"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/Link/viewRefreshTime"
+#!   VALUE="7"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/Region/LatLonAltBox/east"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/Region/LatLonAltBox/north"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/Region/LatLonAltBox/south"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/Region/LatLonAltBox/west"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/Region/Lod/maxLodPixels"
+#!   VALUE="-1"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/Region/Lod/minLodPixels"
+#!   VALUE="0"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/description"
+#!   VALUE="A KML Link document processed by FME Server"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/name"
+#!   VALUE="KML Link Translation"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NetworkLink/visibility"
+#!   VALUE="0"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="OUTPUT_WRITER"
+#!   VALUE="OGCKML_1"
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! </SERVICES>
+#! <REPOSITORY
+#!   NAME="Samples"
+#! />
+#! <ITEM
+#!   NAME="austinApartments.fmw"
+#! />
+#! <READER_DATASETS>
+#! <DATASET
+#!   NAME="SPATIALITE_NATIVE_1"
+#!   OVERRIDE="-SPATIALITE_NATIVE_1_DATASET"
+#!   DATASET="SPATIALITE_NATIVE_1/Landmarks.sqlite"
+#! />
+#! </READER_DATASETS>
+#! <WRITER_DATASETS>
+#! <DATASET
+#!   NAME="OGCKML_1"
+#!   OVERRIDE="-OGCKML_1_DATASET"
+#!   DATASET="OGCKML_1/austinApartments.kml"
+#! />
+#! </WRITER_DATASETS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI IGNORE OPTIONAL MULTIFILE SourceDataset_SPATIALITE_NATIVE INCLUDE_WEB_BROWSER%SpatiaLite_Database_Files(*.sqlite;*.db;*.sl3)|*.sqlite;*.db;*.sl3|SpatiaLite_Database_Files(*.sqlite)|*.sqlite|SpatiaLite_Database_Files(*.db)|*.db|SpatiaLite_Database_Files(*.sl3)|*.sl3|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_files(*)|* SpatiaLite Database"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)\Landmarks.sqlite"
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <USER_PARAMETERS
+#!   FORM="eyJwYXJhbWV0ZXJzIjpbeyJhY2Nlc3NNb2RlIjoicmVhZCIsImRlZmF1bHRWYWx1ZSI6IiQoRk1FX01GX0RJUilcXExhbmRtYXJrcy5zcWxpdGUiLCJkZXByZWNhdGVkRmxhZ3MiOlsibm9uZSJdLCJmaWx0ZXJzIjpbeyJkZXNjcmlwdGlvbiI6IlNwYXRpYUxpdGUgRGF0YWJhc2UgRmlsZXMiLCJmaWx0ZXIiOlsiKi5zcWxpdGUiLCIqLmRiIiwiKi5zbDMiXX0seyJkZXNjcmlwdGlvbiI6IlNwYXRpYUxpdGUgRGF0YWJhc2UgRmlsZXMiLCJmaWx0ZXIiOlsiKi5zcWxpdGUiXX0seyJkZXNjcmlwdGlvbiI6IlNwYXRpYUxpdGUgRGF0YWJhc2UgRmlsZXMiLCJmaWx0ZXIiOlsiKi5kYiJdfSx7ImRlc2NyaXB0aW9uIjoiU3BhdGlhTGl0ZSBEYXRhYmFzZSBGaWxlcyIsImZpbHRlciI6WyIqLnNsMyJdfSx7ImRlc2NyaXB0aW9uIjoiQ29tcHJlc3NlZCBGaWxlcyIsImZpbHRlciI6WyIqLmJ6MiIsIiouZ3oiXX0seyJkZXNjcmlwdGlvbiI6IkFyY2hpdmUgRmlsZXMiLCJmaWx0ZXIiOlsiKi43eiIsIiouN3ppcCIsIioucmFyIiwiKi5ydnoiLCIqLnRhciIsIioudGFyLmJ6MiIsIioudGFyLmd6IiwiKi50Z3oiLCIqLnppcCIsIiouemlweCJdfSx7ImRlc2NyaXB0aW9uIjoiQWxsIGZpbGVzIiwiZmlsdGVyIjpbIioiXX1dLCJpbmNsdWRlV2ViQnJvd3NlciI6dHJ1ZSwiaXRlbXNUb1NlbGVjdCI6ImZpbGVzIiwibmFtZSI6IlNvdXJjZURhdGFzZXRfU1BBVElBTElURV9OQVRJVkUiLCJwcm9tcHQiOiJTcGF0aWFMaXRlIERhdGFiYXNlIiwicmVxdWlyZWQiOmZhbHNlLCJzZWxlY3RNdWx0aXBsZSI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyIsInZpc2liaWxpdHkiOiJoaWRkZW5FbmFibGVkIn1dfQ=="
+#! >
+#! <PARAMETER_INFO>
+#!     <INFO NAME="SourceDataset_SPATIALITE_NATIVE" 
+#!   DEFAULT_VALUE="$(FME_MF_DIR)\Landmarks.sqlite"
+#!   SCOPE="DEPENDENT"
+#!   GENERATED_GUI_LINE="false"
+#!   GUI_LINE="GUI IGNORE OPTIONAL MULTIFILE SourceDataset_SPATIALITE_NATIVE INCLUDE_WEB_BROWSER%SpatiaLite_Database_Files(*.sqlite;*.db;*.sl3)|*.sqlite;*.db;*.sl3|SpatiaLite_Database_Files(*.sqlite)|*.sqlite|SpatiaLite_Database_Files(*.db)|*.db|SpatiaLite_Database_Files(*.sl3)|*.sl3|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_files(*)|* SpatiaLite Database"
+#! />
+#! </PARAMETER_INFO>
+#! </USER_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="10"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Create the category attribute for&#13;&lt;br&gt; feature type fanout.&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="393.75843758437577 745.75565630656297"
+#!   TOP_LEFT="393.75843758437577 745.75565630656297"
+#!   BOTTOM_RIGHT="990.75843758437577 746.75565630656297"
+#!   BOUNDING_RECT="393.75843758437577 745.75565630656297 597 -1"
+#!   ORDER="19"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{bc47e935-aed6-4470-a9ec-526fb4642428}"
+#!   COLOUR="0.082352941176470587,0.23529411764705882,0.16862745098039217,0.39215686274509803"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="11"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="26"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;Copy LANAME to kml_name&#13;&lt;br&gt;(legend entry and label)&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1886.521375213752 209.62565625656259"
+#!   TOP_LEFT="1886.521375213752 209.62565625656259"
+#!   BOTTOM_RIGHT="1886.521375213752 210.62565625656259"
+#!   BOUNDING_RECT="1886.521375213752 209.62565625656259 0 -1"
+#!   ORDER="30"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{79ea38a8-a29a-440f-b5b7-feeb99f4fad9}"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="8"
+#!   ANCHORED_NODE="25"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="31"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Landmarks in Austin, in LL84&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-1037.6351563515636 401.63053130531301"
+#!   TOP_LEFT="-1037.6351563515636 401.63053130531301"
+#!   BOTTOM_RIGHT="-531.25531255312558 252.8793437934379"
+#!   BOUNDING_RECT="-1037.6351563515636 401.63053130531301 506.37984379843806 148.75118751187512"
+#!   ORDER="500000000000021"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{1839df9f-e604-4e58-84b0-e235f0378113}"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="2"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="4"
+#!   NAME="Find landmark type"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="-357.49887498874983 830.75565630656297"
+#!   ORDER="500000000000018.13"
+#!   PALETTE_COLOR=""
+#!   BOTTOM_RIGHT="270.50112501125017 -687.24434369343703"
+#!   BOUNDING_RECT="-357.49887498874983 830.75565630656297 628 1518"
+#!   STICKY="true"
+#!   COLOUR="0.4392156862745098,0.11372549019607843,0.32549019607843138,0.39215686274509803"
+#!   CONTENTS="3 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="11"
+#!   NAME="Category for fanout"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="373.75843758437577 830.75565630656297"
+#!   ORDER="500000000000019.13"
+#!   PALETTE_COLOR=""
+#!   BOTTOM_RIGHT="1010.7584375843758 -687.24434369343703"
+#!   BOUNDING_RECT="373.75843758437577 830.75565630656297 637 1518"
+#!   STICKY="true"
+#!   COLOUR="0.082352941176470587,0.23529411764705882,0.16862745098039217,0.39215686274509803"
+#!   CONTENTS="7 8 10 6 9 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="20"
+#!   NAME="Apply KML Style"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="1126.8909689096893 830.75565630656297"
+#!   ORDER="500000000000020.13"
+#!   PALETTE_COLOR=""
+#!   BOTTOM_RIGHT="1696.8909689096893 -683.24434369343703"
+#!   BOUNDING_RECT="1126.8909689096893 830.75565630656297 570 1514"
+#!   STICKY="true"
+#!   COLOUR="0.40784313725490196,0.2627450980392157,0.44313725490196076,0.39215686274509803"
+#!   CONTENTS="16 17 19 18 "
+#! >
+#! </BOOKMARK>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="TestFilter"
+#!   VERSION="2"
+#!   POSITION="-253.8732187321871 371.50584380843793"
+#!   BOUNDING_RECT="-253.8732187321871 371.50584380843793 430 71"
+#!   ORDER="18"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22242"
+#! >
+#!     <OUTPUT_FEAT NAME="Apartments"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="School"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="Shopping"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="Airports"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PASSED_TEST_GROUP_OUTPUT" PARM_VALUE="FIRST"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Across Output Ports"/>
+#!     <XFORM_PARM PARM_NAME="TESTLISTGRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1 OR 2&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;LANAME&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;apartment&lt;lf&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;LANAME&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;townhome&quot;,Apartments,&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;LANAME&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;school&quot;,School,&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1 OR 2&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;LANAME&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;shop&lt;lf&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;LANAME&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;mall&quot;,Shopping,&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;1 OR 2&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;LANAME&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;airport&lt;lf&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;LANAME&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;CONTAINS&lt;space&gt;international&quot;,Airports"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="6"
+#!   TYPE="AttributeCreator"
+#!   VERSION="10"
+#!   POSITION="453.75843758437577 537.75565630656297"
+#!   BOUNDING_RECT="453.75843758437577 537.75565630656297 430 71"
+#!   ORDER="20"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23248"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="category" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; category SET_TO Apartments varchar&lt;openparen&gt;200&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="USER_MODIFIED_ATTRIBUTE_TYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_Apartments"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="7"
+#!   TYPE="AttributeCreator"
+#!   VERSION="10"
+#!   POSITION="466.75843758437577 293.75565630656297"
+#!   BOUNDING_RECT="466.75843758437577 293.75565630656297 430 71"
+#!   ORDER="21"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23248"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="category" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; category SET_TO School varchar&lt;openparen&gt;200&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="USER_MODIFIED_ATTRIBUTE_TYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_School"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="8"
+#!   TYPE="AttributeCreator"
+#!   VERSION="10"
+#!   POSITION="472.75843758437577 37.755656306562969"
+#!   BOUNDING_RECT="472.75843758437577 37.755656306562969 430 71"
+#!   ORDER="22"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23248"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="category" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; category SET_TO Shopping varchar&lt;openparen&gt;200&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="USER_MODIFIED_ATTRIBUTE_TYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_Shopping"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="9"
+#!   TYPE="AttributeCreator"
+#!   VERSION="10"
+#!   POSITION="478.75843758437577 -218.24434369343703"
+#!   BOUNDING_RECT="478.75843758437577 -218.24434369343703 430 71"
+#!   ORDER="23"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23248"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="category" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; category SET_TO Airports varchar&lt;openparen&gt;200&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="USER_MODIFIED_ATTRIBUTE_TYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_Airports"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="16"
+#!   TYPE="KMLStyler"
+#!   VERSION="3"
+#!   POSITION="1165.8909689096893 545.75565630656297"
+#!   BOUNDING_RECT="1165.8909689096893 545.75565630656297 430 71"
+#!   ORDER="24"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="13236"
+#! >
+#!     <OUTPUT_FEAT NAME="KMLStyled"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="category" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COLOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FILL_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FILL_OPACITY" PARM_VALUE="0.4"/>
+#!     <XFORM_PARM PARM_NAME="ICON_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ICON_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ICON_NAME" PARM_VALUE="I1"/>
+#!     <XFORM_PARM PARM_NAME="ICON_OPACITY" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="ICON_SCALE" PARM_VALUE="0.7"/>
+#!     <XFORM_PARM PARM_NAME="LABEL_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LABEL_OPACITY" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="LABEL_SCALE" PARM_VALUE="0.8"/>
+#!     <XFORM_PARM PARM_NAME="LABEL_STYLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LABEL_VISIBILITY" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="LINE_STYLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LINE_WIDTH" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="LINE_WIDTH_UNITS" PARM_VALUE="Pixels (Display Units)"/>
+#!     <XFORM_PARM PARM_NAME="OPACITY" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="STYLE_PER_FEATURE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="KMLStyler_apartments"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="17"
+#!   TYPE="KMLStyler"
+#!   VERSION="3"
+#!   POSITION="1180.8909689096893 282.75565630656297"
+#!   BOUNDING_RECT="1180.8909689096893 282.75565630656297 430 71"
+#!   ORDER="25"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="13236"
+#! >
+#!     <OUTPUT_FEAT NAME="KMLStyled"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="category" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COLOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FILL_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FILL_OPACITY" PARM_VALUE="0.4"/>
+#!     <XFORM_PARM PARM_NAME="ICON_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ICON_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ICON_NAME" PARM_VALUE="B2"/>
+#!     <XFORM_PARM PARM_NAME="ICON_OPACITY" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="ICON_SCALE" PARM_VALUE="0.3"/>
+#!     <XFORM_PARM PARM_NAME="LABEL_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LABEL_OPACITY" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="LABEL_SCALE" PARM_VALUE="0.6"/>
+#!     <XFORM_PARM PARM_NAME="LABEL_STYLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LABEL_VISIBILITY" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="LINE_STYLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LINE_WIDTH" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="LINE_WIDTH_UNITS" PARM_VALUE="Pixels (Display Units)"/>
+#!     <XFORM_PARM PARM_NAME="OPACITY" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="STYLE_PER_FEATURE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="KMLStyler_school"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="18"
+#!   TYPE="KMLStyler"
+#!   VERSION="3"
+#!   POSITION="1171.8909689096893 19.755656306562969"
+#!   BOUNDING_RECT="1171.8909689096893 19.755656306562969 430 71"
+#!   ORDER="26"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="13236"
+#! >
+#!     <OUTPUT_FEAT NAME="KMLStyled"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="category" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COLOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FILL_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FILL_OPACITY" PARM_VALUE="0.4"/>
+#!     <XFORM_PARM PARM_NAME="ICON_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ICON_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ICON_NAME" PARM_VALUE="D2"/>
+#!     <XFORM_PARM PARM_NAME="ICON_OPACITY" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="ICON_SCALE" PARM_VALUE="0.3"/>
+#!     <XFORM_PARM PARM_NAME="LABEL_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LABEL_OPACITY" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="LABEL_SCALE" PARM_VALUE="0.6"/>
+#!     <XFORM_PARM PARM_NAME="LABEL_STYLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LABEL_VISIBILITY" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="LINE_STYLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LINE_WIDTH" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="LINE_WIDTH_UNITS" PARM_VALUE="Pixels (Display Units)"/>
+#!     <XFORM_PARM PARM_NAME="OPACITY" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="STYLE_PER_FEATURE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="KMLStyler_shopping"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="19"
+#!   TYPE="KMLStyler"
+#!   VERSION="3"
+#!   POSITION="1183.8909689096893 -273.24434369343703"
+#!   BOUNDING_RECT="1183.8909689096893 -273.24434369343703 430 71"
+#!   ORDER="27"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="13236"
+#! >
+#!     <OUTPUT_FEAT NAME="KMLStyled"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="category" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COLOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FILL_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FILL_OPACITY" PARM_VALUE="0.4"/>
+#!     <XFORM_PARM PARM_NAME="ICON_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ICON_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ICON_NAME" PARM_VALUE="M4"/>
+#!     <XFORM_PARM PARM_NAME="ICON_OPACITY" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="ICON_SCALE" PARM_VALUE="0.6"/>
+#!     <XFORM_PARM PARM_NAME="LABEL_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LABEL_OPACITY" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="LABEL_SCALE" PARM_VALUE="0.6"/>
+#!     <XFORM_PARM PARM_NAME="LABEL_STYLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LABEL_VISIBILITY" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="LINE_STYLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LINE_WIDTH" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="LINE_WIDTH_UNITS" PARM_VALUE="Pixels (Display Units)"/>
+#!     <XFORM_PARM PARM_NAME="OPACITY" PARM_VALUE="1.0"/>
+#!     <XFORM_PARM PARM_NAME="STYLE_PER_FEATURE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="KMLStyler_airports"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="25"
+#!   TYPE="AttributeCopier"
+#!   VERSION="7"
+#!   POSITION="1958.521375213752 -7.3743437434374073"
+#!   BOUNDING_RECT="1958.521375213752 -7.3743437434374073 430 71"
+#!   ORDER="28"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="22273"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="LANAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="kml_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="category" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="CFCC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FILE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALAT" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LALONG" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LAND" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="MODULE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OBJECTID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SOURCE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="LANAME kml_name COPY "/>
+#!     <XFORM_PARM PARM_NAME="MISSING_INPUT_ATTRS" PARM_VALUE="PRESERVE"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCopier_kml_name"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="5"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="12"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="6"
+#!   SOURCE_PORT_DESC="fo 0 Apartments"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="21"
+#!   SOURCE_NODE="6"
+#!   TARGET_NODE="16"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="22"
+#!   SOURCE_NODE="7"
+#!   TARGET_NODE="17"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="23"
+#!   SOURCE_NODE="8"
+#!   TARGET_NODE="18"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="24"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="19"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="27"
+#!   SOURCE_NODE="16"
+#!   TARGET_NODE="25"
+#!   SOURCE_PORT_DESC="fo 0 KMLStyled"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="28"
+#!   SOURCE_NODE="17"
+#!   TARGET_NODE="25"
+#!   SOURCE_PORT_DESC="fo 0 KMLStyled"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="29"
+#!   SOURCE_NODE="18"
+#!   TARGET_NODE="25"
+#!   SOURCE_PORT_DESC="fo 0 KMLStyled"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="30"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="25"
+#!   SOURCE_PORT_DESC="fo 0 KMLStyled"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="33"
+#!   SOURCE_NODE="25"
+#!   TARGET_NODE="32"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="13"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="7"
+#!   SOURCE_PORT_DESC="fo 1 School"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="14"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="fo 2 Shopping"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="15"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="fo 3 Airports"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.30196078431372547,0.30196078431372547,0.30196078431372547,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 37
+ARCGIS_COMPATIBILITY ARCGIS_AUTO
+GUI IGNORE SourceDataset_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_FME_CONNECTION_GROUP_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_FME_GROUP_NAMED1_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_USE_SEARCH_ENVELOPE_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MINX_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MINY_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MAXX_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MAXY_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_CLIP_TO_ENVELOPE_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_ADVANCED_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_BEGIN_SQL_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_END_SQL_SPATIALITE_NATIVE_1,SPATIALITE_NATIVE_IN_NETWORK_AUTHENTICATION_SPATIALITE_NATIVE_1,DestDataset_OGCKML_1,OGCKML_OUT_DOCUMENT_NAME_OGCKML_1,OGCKML_OUT_DOCUMENT_DESC_OGCKML_1,OGCKML_OUT_DOCUMENT_VISIBILITY_OGCKML_1,OGCKML_OUT_ATOM_AUTHOR_NAME_OGCKML_1,OGCKML_OUT_ATOM_AUTHOR_EMAIL_OGCKML_1,OGCKML_OUT_ATOM_LINK_HREF_OGCKML_1,OGCKML_OUT_WATERMARK_NAME_OGCKML_1,OGCKML_OUT_WATERMARK_SNIPPET_OGCKML_1,OGCKML_OUT_WATERMARK_ICON_OGCKML_1,OGCKML_OUT_ATTR_IN_DESCRIPTION_OGCKML_1,OGCKML_OUT_HTML_DESCRIPTIONS_OGCKML_1,OGCKML_OUT_KML_WRT_ADV_PARA_OGCKML_1,OGCKML_OUT_DATASET_HINT_OGCKML_1,OGCKML_OUT_STYLE_DOC_OGCKML_1,OGCKML_OUT_SCHEMA_DOC_OGCKML_1,OGCKML_OUT_DETECT_RASTERS_OGCKML_1,OGCKML_OUT_EXEC_GO_PIPELINE_OGCKML_1,OGCKML_OUT_RASTER_MODE_OGCKML_1,OGCKML_OUT_RASTER_FORMAT_OGCKML_1,OGCKML_OUT_TEXTURE_FORMAT_OGCKML_1,OGCKML_OUT_COPY_ICON_OGCKML_1,OGCKML_OUT_OUTPUT_SCHEMA_OGCKML_1,OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS_OGCKML_1,OGCKML_OUT_ORIENTATION_OGCKML_1,OGCKML_OUT_LOG_VERBOSE_OGCKML_1,OGCKML_OUT_OMIT_DOCUMENT_ELEMENT_OGCKML_1,OGCKML_OUT_REGIONATE_DATA_OGCKML_1,OGCKML_OUT_EXEC_PO_PIPELINE_OGCKML_1,OGCKML_OUT_CREATE_EMPTY_FOLDERS_OGCKML_1,OGCKML_OUT_KML21_TARGET_HREF_OGCKML_1,OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS_OGCKML_1,OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS_OGCKML_1,OGCKML_OUT_WRITE_TEXTURES_TXT_FILE_OGCKML_1,OGCKML_OUT_KML21_FANOUT_TYPE_OGCKML_1
+# ============================================================================
+DEFAULT_MACRO SourceDataset_SPATIALITE_NATIVE $(FME_MF_DIR)\Landmarks.sqlite
+
+# ============================================================================
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+MULTI_READER_TYPE{0} SPATIALITE_NATIVE
+MULTI_READER_KEYWORD{0} SPATIALITE_NATIVE_1
+MULTI_READER_GEN_DIRECTIVES{0} END_SQL,,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,SEARCH_ENVELOPE_MAXX,0,CREATE_FEATURE_TABLES_FROM_DATA,Yes,TABLELIST,Landmarks,SPATIALITE_NATIVE_EXPOSE_FORMAT_ATTRS,,_MERGE_SCHEMAS,YES,BEGIN_SQL,,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_MAXY,0,SUPPORT_INTERNATIONALIZATION,YES,ADVANCED,,SEARCH_ENVELOPE_MINY,0,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,CLIP_TO_ENVELOPE,NO
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} OGCKML
+MULTI_WRITER_KEYWORD{0} OGCKML_1
+#! END_WB_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "SPATIALITE_NATIVE_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER SPATIALITE_NATIVE SPATIALITE_NATIVE_1
+# ============================================================================
+# First get the dataset for the database.
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_SPATIALITE_NATIVE_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER SPATIALITE_NATIVE SPATIALITE_NATIVE_1
+DEFAULT_MACRO SourceDataset_SPATIALITE_NATIVE_1 $(SourceDataset_SPATIALITE_NATIVE)
+GUI MULTIFILE SourceDataset_SPATIALITE_NATIVE_1 SpatiaLite_Database_Files(*.sqlite;*.db;*.sl3)|*.sqlite;*.db;*.sl3|SpatiaLite_Database_Files(*.sqlite)|*.sqlite|SpatiaLite_Database_Files(*.db)|*.db|SpatiaLite_Database_Files(*.sl3)|*.sl3|All_files(*)|* SpatiaLite Database
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_SPATIALITE_NATIVE_1 Yes
+SPATIALITE_NATIVE_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(SPATIALITE_NATIVE_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_SPATIALITE_NATIVE_1)"
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_FME_CONNECTION_GROUP_SPATIALITE_NATIVE_1 
+GUI OPTIONAL DISCLOSUREGROUP SPATIALITE_NATIVE_IN_FME_CONNECTION_GROUP_SPATIALITE_NATIVE_1 SPATIALITE_NATIVE_IN_NAMED_CONNECTION Database Connection
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_FME_GROUP_NAMED1_SPATIALITE_NATIVE_1 
+GUI OPTIONAL DISCLOSUREGROUP SPATIALITE_NATIVE_IN_FME_GROUP_NAMED1_SPATIALITE_NATIVE_1 SPATIALITE_NATIVE_IN_TABLELIST%SPATIALITE_NATIVE_IN_WHERE_CLAUSE Constraints
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_EXPOSE_ATTRS_GROUP_SPATIALITE_NATIVE_1 
+SPATIALITE_NATIVE_1_EXPOSE_ATTRS_GROUP "$(SPATIALITE_NATIVE_IN_EXPOSE_ATTRS_GROUP_SPATIALITE_NATIVE_1)"
+# Compatibility case to support reading old workspaces with raw byte if unicode
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_SUPPORT_INTERNATIONALIZATION_SPATIALITE_NATIVE_1 YES
+SPATIALITE_NATIVE_1_SUPPORT_INTERNATIONALIZATION "$(SPATIALITE_NATIVE_IN_SUPPORT_INTERNATIONALIZATION_SPATIALITE_NATIVE_1)"
+# Include this file in source setting section to add native search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_USE_SEARCH_ENVELOPE_SPATIALITE_NATIVE_1 NO
+SPATIALITE_NATIVE_1_USE_SEARCH_ENVELOPE "$(SPATIALITE_NATIVE_IN_USE_SEARCH_ENVELOPE_SPATIALITE_NATIVE_1)"
+GUI ACTIVEDISCLOSUREGROUP SPATIALITE_NATIVE_IN_USE_SEARCH_ENVELOPE_SPATIALITE_NATIVE_1 SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MINX_SPATIALITE_NATIVE_1%SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MINY_SPATIALITE_NATIVE_1%SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MAXX_SPATIALITE_NATIVE_1%SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MAXY_SPATIALITE_NATIVE_1%SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SPATIALITE_NATIVE_1%SPATIALITE_NATIVE_IN_CLIP_TO_ENVELOPE_SPATIALITE_NATIVE_1%SPATIALITE_NATIVE_IN_SEARCH_METHOD%SPATIALITE_NATIVE_IN_SEARCH_METHOD_FILTER%SPATIALITE_NATIVE_IN_SEARCH_ORDER%SPATIALITE_NATIVE_IN_SEARCH_FEATURE%SPATIALITE_NATIVE_IN_DUMMY_SEARCH_ENVELOPE_PARAMETER Use Search Envelope
+# ===========================================================================
+GUI LOOKUP SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MINX_SPATIALITE_NATIVE_1 <Unused>,0 
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MINX_SPATIALITE_NATIVE_1 0
+SPATIALITE_NATIVE_1_SEARCH_ENVELOPE "$(SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MINX_SPATIALITE_NATIVE_1)"
+GUI OPTIONAL FLOAT SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MINX_SPATIALITE_NATIVE_1 Minimum X:
+# ===========================================================================
+GUI LOOKUP SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MINY_SPATIALITE_NATIVE_1 <Unused>,0 
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MINY_SPATIALITE_NATIVE_1 0
+SPATIALITE_NATIVE_1_SEARCH_ENVELOPE "$(SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MINY_SPATIALITE_NATIVE_1)"
+GUI OPTIONAL FLOAT SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MINY_SPATIALITE_NATIVE_1 Minimum Y:
+# ===========================================================================
+GUI LOOKUP SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MAXX_SPATIALITE_NATIVE_1 <Unused>,0 
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MAXX_SPATIALITE_NATIVE_1 0
+SPATIALITE_NATIVE_1_SEARCH_ENVELOPE "$(SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MAXX_SPATIALITE_NATIVE_1)"
+GUI OPTIONAL FLOAT SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MAXX_SPATIALITE_NATIVE_1 Maximum X:
+# ===========================================================================
+GUI LOOKUP SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MAXY_SPATIALITE_NATIVE_1 <Unused>,0 
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MAXY_SPATIALITE_NATIVE_1 0
+SPATIALITE_NATIVE_1_SEARCH_ENVELOPE "$(SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MAXY_SPATIALITE_NATIVE_1)"
+GUI OPTIONAL FLOAT SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_MAXY_SPATIALITE_NATIVE_1 Maximum Y:
+# ===========================================================================
+GUI LOOKUP SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SPATIALITE_NATIVE_1 <Unused>, 
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SPATIALITE_NATIVE_1 
+SPATIALITE_NATIVE_1_SEARCH_ENVELOPE "$(SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SPATIALITE_NATIVE_1)"
+GUI OPTIONAL COORDSYS SPATIALITE_NATIVE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SPATIALITE_NATIVE_1 Search Envelope Coordinate System:
+# ===========================================================================
+GUI LOOKUP SPATIALITE_NATIVE_IN_CLIP_TO_ENVELOPE_SPATIALITE_NATIVE_1 <Unused>,NO 
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_CLIP_TO_ENVELOPE_SPATIALITE_NATIVE_1 NO
+SPATIALITE_NATIVE_1_CLIP_TO_ENVELOPE "$(SPATIALITE_NATIVE_IN_CLIP_TO_ENVELOPE_SPATIALITE_NATIVE_1)"
+GUI OPTIONAL CHECKBOX SPATIALITE_NATIVE_IN_CLIP_TO_ENVELOPE_SPATIALITE_NATIVE_1 YES%NO Clip to Search Envelope
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_ADVANCED_SPATIALITE_NATIVE_1 
+GUI OPTIONAL DISCLOSUREGROUP SPATIALITE_NATIVE_IN_ADVANCED_SPATIALITE_NATIVE_1 SPATIALITE_NATIVE_IN_BEGIN_SQL_SPATIALITE_NATIVE_1%SPATIALITE_NATIVE_IN_END_SQL_SPATIALITE_NATIVE_1 Advanced
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_BEGIN_SQL_SPATIALITE_NATIVE_1 
+SPATIALITE_NATIVE_1_BEGIN_SQL "$(SPATIALITE_NATIVE_IN_BEGIN_SQL_SPATIALITE_NATIVE_1)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG SPATIALITE_NATIVE_IN_BEGIN_SQL_SPATIALITE_NATIVE_1 MODE,SQL;FORMAT,SPATIALITE_NATIVE SQL To Run Before Read
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_END_SQL_SPATIALITE_NATIVE_1 
+SPATIALITE_NATIVE_1_END_SQL "$(SPATIALITE_NATIVE_IN_END_SQL_SPATIALITE_NATIVE_1)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG SPATIALITE_NATIVE_IN_END_SQL_SPATIALITE_NATIVE_1 MODE,SQL;FORMAT,SPATIALITE_NATIVE SQL To Run After Read
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_CREATE_FEATURE_TABLES_FROM_DATA_SPATIALITE_NATIVE_1 Yes
+SPATIALITE_NATIVE_1_CREATE_FEATURE_TABLES_FROM_DATA "$(SPATIALITE_NATIVE_IN_CREATE_FEATURE_TABLES_FROM_DATA_SPATIALITE_NATIVE_1)"
+# ===========================================================================
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_NETWORK_AUTHENTICATION_SPATIALITE_NATIVE_1 
+SPATIALITE_NATIVE_1_NETWORK_AUTHENTICATION "$(SPATIALITE_NATIVE_IN_NETWORK_AUTHENTICATION_SPATIALITE_NATIVE_1)"
+GUI OPTIONAL AUTHENTICATOR SPATIALITE_NATIVE_IN_NETWORK_AUTHENTICATION_SPATIALITE_NATIVE_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ============================================================================
+DEFAULT_MACRO SPATIALITE_NATIVE_IN_ATTRIBUTE_READING_SPATIALITE_NATIVE_1 DEFLINE
+SPATIALITE_NATIVE_1_ATTRIBUTE_READING "$(SPATIALITE_NATIVE_IN_ATTRIBUTE_READING_SPATIALITE_NATIVE_1)"
+# ============================================================================
+SPATIALITE_NATIVE_1_GENERATE_FME_BUILD_NUM 22242
+SPATIALITE_NATIVE_1_DATASET "$(SourceDataset_SPATIALITE_NATIVE_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "OGCKML_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER OGCKML OGCKML_1
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_OGCKML_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER OGCKML OGCKML_1
+DEFAULT_MACRO DestDataset_OGCKML_1 $(FME_MF_DIR)austinApartments.kml
+GUI FILENAME DestDataset_OGCKML_1 KML_Files(*.kml;*.kmz)|*.kml;*.kmz|All_Files(*)|* Destination Google KML File:
+OGCKML_1_WRITE_3D_GEOM_AS_POLYGONS no
+DEFAULT_MACRO OGCKML_OUT_DOCUMENT_NAME_OGCKML_1 
+OGCKML_1_DOCUMENT_NAME "$(OGCKML_OUT_DOCUMENT_NAME_OGCKML_1)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_DOCUMENT_NAME_OGCKML_1 Root Document name:
+DEFAULT_MACRO OGCKML_OUT_DOCUMENT_DESC_OGCKML_1 
+OGCKML_1_DOCUMENT_DESC "$(OGCKML_OUT_DOCUMENT_DESC_OGCKML_1)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_DOCUMENT_DESC_OGCKML_1 Document description:
+DEFAULT_MACRO OGCKML_OUT_DOCUMENT_VISIBILITY_OGCKML_1 yes
+OGCKML_1_DOCUMENT_VISIBILITY "$(OGCKML_OUT_DOCUMENT_VISIBILITY_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_DOCUMENT_VISIBILITY_OGCKML_1 yes%no Document visible on load:
+DEFAULT_MACRO OGCKML_OUT_ATOM_AUTHOR_NAME_OGCKML_1 
+OGCKML_1_ATOM_AUTHOR_NAME "$(OGCKML_OUT_ATOM_AUTHOR_NAME_OGCKML_1)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_ATOM_AUTHOR_NAME_OGCKML_1 Author Name:
+DEFAULT_MACRO OGCKML_OUT_ATOM_AUTHOR_EMAIL_OGCKML_1 
+OGCKML_1_ATOM_AUTHOR_EMAIL "$(OGCKML_OUT_ATOM_AUTHOR_EMAIL_OGCKML_1)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_ATOM_AUTHOR_EMAIL_OGCKML_1 Author Email:
+DEFAULT_MACRO OGCKML_OUT_ATOM_LINK_HREF_OGCKML_1 
+OGCKML_1_ATOM_LINK_HREF "$(OGCKML_OUT_ATOM_LINK_HREF_OGCKML_1)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_ATOM_LINK_HREF_OGCKML_1 Author URL:
+DEFAULT_MACRO OGCKML_OUT_WATERMARK_NAME_OGCKML_1 
+OGCKML_1_WATERMARK_NAME "$(OGCKML_OUT_WATERMARK_NAME_OGCKML_1)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_WATERMARK_NAME_OGCKML_1 Watermark Name:
+DEFAULT_MACRO OGCKML_OUT_WATERMARK_SNIPPET_OGCKML_1 
+OGCKML_1_WATERMARK_SNIPPET "$(OGCKML_OUT_WATERMARK_SNIPPET_OGCKML_1)"
+GUI OPTIONAL TEXT_ENCODED OGCKML_OUT_WATERMARK_SNIPPET_OGCKML_1 Watermark Snippet Text:
+DEFAULT_MACRO OGCKML_OUT_WATERMARK_ICON_OGCKML_1 
+OGCKML_1_WATERMARK_ICON "$(OGCKML_OUT_WATERMARK_ICON_OGCKML_1)"
+GUI OPTIONAL TEXT OGCKML_OUT_WATERMARK_ICON_OGCKML_1 Watermark Overlay Icon:
+DEFAULT_MACRO OGCKML_OUT_ATTR_IN_DESCRIPTION_OGCKML_1 yes
+OGCKML_1_ATTR_IN_DESCRIPTION "$(OGCKML_OUT_ATTR_IN_DESCRIPTION_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_ATTR_IN_DESCRIPTION_OGCKML_1 yes%no Create Attribute Table in Description Balloon:
+DEFAULT_MACRO OGCKML_OUT_HTML_DESCRIPTIONS_OGCKML_1 yes
+OGCKML_1_HTML_DESCRIPTIONS "$(OGCKML_OUT_HTML_DESCRIPTIONS_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_HTML_DESCRIPTIONS_OGCKML_1 yes%no Use HTML in Description Balloon:
+DEFAULT_MACRO OGCKML_OUT_KML_WRT_ADV_PARA_OGCKML_1 
+GUI OPTIONAL DISCLOSUREGROUP OGCKML_OUT_KML_WRT_ADV_PARA_OGCKML_1 OGCKML_OUT_DATASET_HINT_OGCKML_1%OGCKML_OUT_STYLE_DOC_OGCKML_1%OGCKML_OUT_SCHEMA_DOC_OGCKML_1%OGCKML_OUT_DETECT_RASTERS_OGCKML_1%OGCKML_OUT_EXEC_GO_PIPELINE_OGCKML_1%OGCKML_OUT_RASTER_MODE_OGCKML_1%OGCKML_OUT_RASTER_FORMAT_OGCKML_1%OGCKML_OUT_TEXTURE_FORMAT_OGCKML_1%OGCKML_OUT_COPY_ICON_OGCKML_1%OGCKML_OUT_OUTPUT_SCHEMA_OGCKML_1%OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS_OGCKML_1%OGCKML_OUT_ORIENTATION_OGCKML_1%OGCKML_OUT_LOG_VERBOSE_OGCKML_1%OGCKML_OUT_OMIT_DOCUMENT_ELEMENT_OGCKML_1%OGCKML_OUT_REGIONATE_DATA_OGCKML_1%OGCKML_OUT_EXEC_PO_PIPELINE_OGCKML_1%OGCKML_OUT_CREATE_EMPTY_FOLDERS_OGCKML_1%OGCKML_OUT_KML21_TARGET_HREF_OGCKML_1%OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS_OGCKML_1%OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS_OGCKML_1%OGCKML_OUT_WRITE_TEXTURES_TXT_FILE_OGCKML_1%OGCKML_OUT_KML21_FANOUT_TYPE_OGCKML_1 Advanced
+DEFAULT_MACRO OGCKML_OUT_DATASET_HINT_OGCKML_1 
+OGCKML_1_DATASET_HINT "$(OGCKML_OUT_DATASET_HINT_OGCKML_1)"
+GUI OPTIONAL TEXT OGCKML_OUT_DATASET_HINT_OGCKML_1 KML hint attribute:
+DEFAULT_MACRO OGCKML_OUT_STYLE_DOC_OGCKML_1 
+OGCKML_1_STYLE_DOC "$(OGCKML_OUT_STYLE_DOC_OGCKML_1)"
+GUI OPTIONAL TEXT OGCKML_OUT_STYLE_DOC_OGCKML_1 External Style Document:
+DEFAULT_MACRO OGCKML_OUT_SCHEMA_DOC_OGCKML_1 
+OGCKML_1_SCHEMA_DOC "$(OGCKML_OUT_SCHEMA_DOC_OGCKML_1)"
+GUI OPTIONAL TEXT OGCKML_OUT_SCHEMA_DOC_OGCKML_1 External Schema Document:
+DEFAULT_MACRO OGCKML_OUT_DETECT_RASTERS_OGCKML_1 yes
+OGCKML_1_DETECT_RASTERS "$(OGCKML_OUT_DETECT_RASTERS_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_DETECT_RASTERS_OGCKML_1 yes%no Generate Raster Ground Overlays:
+DEFAULT_MACRO OGCKML_OUT_EXEC_GO_PIPELINE_OGCKML_1 no
+OGCKML_1_EXEC_GO_PIPELINE "$(OGCKML_OUT_EXEC_GO_PIPELINE_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_EXEC_GO_PIPELINE_OGCKML_1 yes%no Generate Super-Overlays:
+DEFAULT_MACRO OGCKML_OUT_RASTER_MODE_OGCKML_1 write
+OGCKML_1_RASTER_MODE "$(OGCKML_OUT_RASTER_MODE_OGCKML_1)"
+GUI LOOKUP_CHOICE OGCKML_OUT_RASTER_MODE_OGCKML_1 Write,write%Copy,copy%Relative,relative Raster Handling Mode:
+DEFAULT_MACRO OGCKML_OUT_RASTER_FORMAT_OGCKML_1 tiff
+OGCKML_1_RASTER_FORMAT "$(OGCKML_OUT_RASTER_FORMAT_OGCKML_1)"
+GUI OPTIONAL CHOICE OGCKML_OUT_RASTER_FORMAT_OGCKML_1 jpeg%tiff%png%gif Raster Output Format:
+DEFAULT_MACRO OGCKML_OUT_TEXTURE_FORMAT_OGCKML_1 NONE
+OGCKML_1_TEXTURE_FORMAT "$(OGCKML_OUT_TEXTURE_FORMAT_OGCKML_1)"
+GUI LOOKUP_CHOICE OGCKML_OUT_TEXTURE_FORMAT_OGCKML_1 Auto,NONE%PNG,PNGRASTER%JPEG%GIF,GIFRASTER%BMP%TIFF Preferred Texture Format:
+DEFAULT_MACRO OGCKML_OUT_COPY_ICON_OGCKML_1 yes
+OGCKML_1_COPY_ICON "$(OGCKML_OUT_COPY_ICON_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_COPY_ICON_OGCKML_1 yes%no Copy icons to destination dataset:
+DEFAULT_MACRO OGCKML_OUT_OUTPUT_SCHEMA_OGCKML_1 yes
+OGCKML_1_OUTPUT_SCHEMA "$(OGCKML_OUT_OUTPUT_SCHEMA_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_OUTPUT_SCHEMA_OGCKML_1 yes%no Create KML Schema Elements:
+DEFAULT_MACRO OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS_OGCKML_1 no
+OGCKML_1_AUTO_CREATE_NETWORK_LINKS "$(OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_AUTO_CREATE_NETWORK_LINKS_OGCKML_1 yes%no Create Network Links for Referenced Documents:
+DEFAULT_MACRO OGCKML_OUT_ORIENTATION_OGCKML_1 none
+OGCKML_1_ORIENTATION "$(OGCKML_OUT_ORIENTATION_OGCKML_1)"
+GUI LOOKUP_CHOICE OGCKML_OUT_ORIENTATION_OGCKML_1 None,none%Left,left%Right,right Force Geometry Orientation:
+DEFAULT_MACRO OGCKML_OUT_LOG_VERBOSE_OGCKML_1 no
+OGCKML_1_LOG_VERBOSE "$(OGCKML_OUT_LOG_VERBOSE_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_LOG_VERBOSE_OGCKML_1 yes%no Verbose Logging:
+DEFAULT_MACRO OGCKML_OUT_OMIT_DOCUMENT_ELEMENT_OGCKML_1 no
+OGCKML_1_OMIT_DOCUMENT_ELEMENT "$(OGCKML_OUT_OMIT_DOCUMENT_ELEMENT_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_OMIT_DOCUMENT_ELEMENT_OGCKML_1 yes%no Omit Document Element:
+DEFAULT_MACRO OGCKML_OUT_REGIONATE_DATA_OGCKML_1 no
+OGCKML_1_REGIONATE_DATA "$(OGCKML_OUT_REGIONATE_DATA_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_REGIONATE_DATA_OGCKML_1 yes%no Regionate Vectors (Beta):
+DEFAULT_MACRO OGCKML_OUT_EXEC_PO_PIPELINE_OGCKML_1 no
+OGCKML_1_EXEC_PO_PIPELINE "$(OGCKML_OUT_EXEC_PO_PIPELINE_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_EXEC_PO_PIPELINE_OGCKML_1 yes%no Pyramid PhotoOverlays (Beta):
+DEFAULT_MACRO OGCKML_OUT_CREATE_EMPTY_FOLDERS_OGCKML_1 no
+OGCKML_1_CREATE_EMPTY_FOLDERS "$(OGCKML_OUT_CREATE_EMPTY_FOLDERS_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_CREATE_EMPTY_FOLDERS_OGCKML_1 yes%no Create Empty Folders:
+DEFAULT_MACRO OGCKML_OUT_KML21_TARGET_HREF_OGCKML_1 
+OGCKML_1_KML21_TARGET_HREF "$(OGCKML_OUT_KML21_TARGET_HREF_OGCKML_1)"
+GUI OPTIONAL TEXT OGCKML_OUT_KML21_TARGET_HREF_OGCKML_1 Update Target HREF (Network Link Control):
+DEFAULT_MACRO OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS_OGCKML_1 yes
+OGCKML_1_MOVE_TO_KML_LOCAL_COORDSYS "$(OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_MOVE_TO_KML_LOCAL_COORDSYS_OGCKML_1 yes%no Move To Local Coordinate System:
+DEFAULT_MACRO OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS_OGCKML_1 no
+OGCKML_1_WRITE_3D_GEOM_AS_POLYGONS "$(OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_WRITE_3D_GEOM_AS_POLYGONS_OGCKML_1 yes%no Write 3D Geometry As Polygons:
+DEFAULT_MACRO OGCKML_OUT_WRITE_TEXTURES_TXT_FILE_OGCKML_1 no
+OGCKML_1_WRITE_TEXTURES_TXT_FILE "$(OGCKML_OUT_WRITE_TEXTURES_TXT_FILE_OGCKML_1)"
+GUI CHOICE OGCKML_OUT_WRITE_TEXTURES_TXT_FILE_OGCKML_1 yes%no Write texture list to textures.txt:
+DEFAULT_MACRO OGCKML_OUT_KML21_FANOUT_TYPE_OGCKML_1 folder
+OGCKML_1_KML21_FANOUT_TYPE "$(OGCKML_OUT_KML21_FANOUT_TYPE_OGCKML_1)"
+GUI LOOKUP_CHOICE OGCKML_OUT_KML21_FANOUT_TYPE_OGCKML_1 Folder,folder%Subfolder,subfolder Feature Type Fanout Mode:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO OGCKML_OUT_DESTINATION_DATASETTYPE_VALIDATION_OGCKML_1 Yes
+OGCKML_1_DESTINATION_DATASETTYPE_VALIDATION "$(OGCKML_OUT_DESTINATION_DATASETTYPE_VALIDATION_OGCKML_1)"
+DEFAULT_MACRO OGCKML_OUT_COORDINATE_SYSTEM_GRANULARITY_OGCKML_1 FEATURE
+OGCKML_1_COORDINATE_SYSTEM_GRANULARITY "$(OGCKML_OUT_COORDINATE_SYSTEM_GRANULARITY_OGCKML_1)"
+# ============================================================================
+OGCKML_1_GENERATE_FME_BUILD_NUM 22242
+OGCKML_1_DATASET "$(DestDataset_OGCKML_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)austinApartments.log"
+LOG_APPEND NO
+LOG_FILTER_MASK -1
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+FME_NAMES_ENCODING UTF-8
+FME_BULK_MODE_THRESHOLD 2000
+LAST_SAVE_BUILD "FME 2023.0.0.0 (20230302 - Build 23248 - WIN64)"
+MAPPING_FILE_ID City<space>of<space>Austin:<space>Apartments<space>and<space>other<space><openparen>SPATIALITE<space>2<space>KML<closeparen>
+DEFAULT_MACRO DATASET_KEYWORD_SPATIALITE_NATIVE_1 SPATIALITE_NATIVE_1
+DEFAULT_MACRO DATASET_KEYWORD_OGCKML_1 OGCKML_1
+# -------------------------------------------------------------------------
+
+SPATIALITE_NATIVE_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+SPATIALITE_NATIVE_1_COORDINATE_SYSTEM LL84
+OGCKML_1_COORDINATE_SYSTEM LL84
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME austinApartments
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD $(DATASET_KEYWORD_SPATIALITE_NATIVE_1)   INPUT FEATURE_TYPE *    ROUTE SPATIALITE_NATIVE SPATIALITE_NATIVE_1::Landmarks multi_reader_keyword,$(DATASET_KEYWORD_SPATIALITE_NATIVE_1) TO FME_GENERIC ::Landmarks ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+SPATIALITE_NATIVE_1_MERGE_DEF SPATIALITE_NATIVE_1::Landmarks EXACT Landmarks DEFLINE sqlite3_sql_statement,,sqlite3_where_clause,,fme_attribute_reading,defined,CFCC,varchar<openparen>4<closeparen>,FILE,integer,LALAT,integer,LALONG,integer,LANAME,varchar<openparen>31<closeparen>,LAND,integer,MODULE,varchar<openparen>9<closeparen>,OBJECTID,integer,SOURCE,varchar<openparen>2<closeparen>
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Landmarks_SPATIALITE_NATIVE_1 Splitter"    INPUT FEATURE_TYPE Landmarks    OUTPUT FEATURE_TYPE Landmarks_SPATIALITE_NATIVE_1
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { TestFilter_INPUT }    INPUT  FEATURE_TYPE Landmarks_SPATIALITE_NATIVE_1    OUTPUT { FEATURE_TYPE TestFilter_INPUTLINE }
+FACTORY_DEF {*} TestFactory FACTORY_NAME { TestFilter } INPUT FEATURE_TYPE TestFilter_INPUTLINE FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER ACROSS_OUTPUT_PORTS PASSED_TEST_GROUP_OUTPUT FIRST TEST_GROUP TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>LANAME<closeparen>,TestFilter) CONTAINS apartment ENCODED } TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>LANAME<closeparen>,TestFilter) CONTAINS townhome ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1 OR 2" OUTPUT PASSED_0 FEATURE_TYPE TestFilter_Apartments TEST_GROUP TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>LANAME<closeparen>,TestFilter) CONTAINS school ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1" OUTPUT PASSED_1 FEATURE_TYPE TestFilter_School TEST_GROUP TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>LANAME<closeparen>,TestFilter) CONTAINS shop ENCODED } TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>LANAME<closeparen>,TestFilter) CONTAINS mall ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1 OR 2" OUTPUT PASSED_2 FEATURE_TYPE TestFilter_Shopping TEST_GROUP TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>LANAME<closeparen>,TestFilter) CONTAINS airport ENCODED } TEST { @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>LANAME<closeparen>,TestFilter) CONTAINS international ENCODED } BOOLEAN_OPERATOR OR COMPOSITE_TEST_EXPR "1 OR 2" OUTPUT PASSED_3 FEATURE_TYPE TestFilter_Airports OUTPUT FAILED FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
+FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter <lt>UNFILTERED<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { AttributeCreator_Apartments }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE TestFilter_Apartments    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    NUM_OF_COLUMNS 5    ATTR_ACTION { "" "category" "SET_TO" "Apartments" "varchar<openparen>200<closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeCreator_Apartments_OUTPUT        }
+# -------------------------------------------------------------------------
+Tcl2 proc KMLStyler_apartments_common_style_setter {} {     if { {Yes} == {No} } {        FME_SetAttribute kml_common_style {KMLStyler_apartments};     } }
+Tcl2 proc KMLStyler_apartments_pen_setter { color opacity } {     set color [string trim $color {()}];     set opacity [string trim $opacity {()}];     if { [string length $color]>0 } {        FME_UnsetAttributes kml_linestyle_color;        FME_SetAttribute fme_color $color;        if { [string length $opacity]>0 } {           FME_SetAttribute fme_pen_opacity $opacity;        }     } }
+Tcl2 proc KMLStyler_apartments_fill_setter { color opacity } {     set color [string trim $color {()}];     set opacity [string trim $opacity {()}];     if { [string length $color]>0 } {        FME_UnsetAttributes kml_polystyle_color;        FME_SetAttribute fme_fill_color $color;        if { [string length $opacity]>0 } {           FME_SetAttribute fme_fill_opacity $opacity;        }     } }
+Tcl2 proc KMLStyler_apartments_unset_style_url { color fill_color } {     set color [string trim $color {()}];     set fill_color [string trim $fill_color {()}];     if { [string length $color]>0 || [string length $fill_color]>0 } {        FME_UnsetAttributes kml_style_url;     } }
+Tcl2 proc KMLStyler_apartments_icon_setter { icon scale color opacity } {    set color [string trim $color {()}];    FME_SetAttribute kml_iconstyle_scale $scale;    if { [string length $icon] > 0 } {       FME_SetAttribute kml_icon $icon;       FME_UnsetAttributes kml_icon_href kml_icon_temp_file_location;    };    if { [string length $color] > 0 } {       FME_SetAttribute kml_icon_color $color;       FME_UnsetAttributes kml_iconstyle_color;       if { [string length $opacity]>0 } {           FME_SetAttribute kml_icon_opacity $opacity;       }    } }
+Tcl2 proc KMLStyler_apartments_label_setter { scale color opacity } {    set color [string trim $color {()}];    FME_SetAttribute kml_labelstyle_scale $scale;    if { [string length $color] > 0 } {       FME_SetAttribute kml_label_color $color;       FME_UnsetAttributes kml_labelstyle_color;       if { [string length $opacity]>0 } {           FME_SetAttribute kml_label_opacity $opacity;       }    } }
+# This macro and TCL block selects the correct line width attribute,
+# based on the line width units parameter.
+MACRO KMLStyler_apartments_line_width_attr
+INCLUDE [    if { {PIXELS} == {PIXELS} } {       puts {MACRO KMLStyler_apartments_line_width_attr kml_linestyle_width }    } elseif { {PIXELS} == {METERS} } {       puts {MACRO KMLStyler_apartments_line_width_attr kml_linestyle_physical_width }    }    ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { KMLStyler_apartments }    INPUT  FEATURE_TYPE AttributeCreator_Apartments_OUTPUT    OUTPUT { FEATURE_TYPE KMLStyler_apartments_KMLStyled         @Tcl2(KMLStyler_apartments_common_style_setter)         @Tcl2("KMLStyler_apartments_icon_setter {I1} {0.7} {()} {1.0} ")         @Tcl2("KMLStyler_apartments_pen_setter {()} {1.0} ")         @Tcl2("KMLStyler_apartments_fill_setter {()} {0.4} ")         @Tcl2("KMLStyler_apartments_unset_style_url {()} {()} " )         $(KMLStyler_apartments_line_width_attr) "1.0"         kml_linestyle_label_visibility 1         @Tcl2("KMLStyler_apartments_label_setter {0.8} {()} {1.0} ")          }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { AttributeCreator_School }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE TestFilter_School    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    NUM_OF_COLUMNS 5    ATTR_ACTION { "" "category" "SET_TO" "School" "varchar<openparen>200<closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeCreator_School_OUTPUT        }
+# -------------------------------------------------------------------------
+Tcl2 proc KMLStyler_school_common_style_setter {} {     if { {Yes} == {No} } {        FME_SetAttribute kml_common_style {KMLStyler_school};     } }
+Tcl2 proc KMLStyler_school_pen_setter { color opacity } {     set color [string trim $color {()}];     set opacity [string trim $opacity {()}];     if { [string length $color]>0 } {        FME_UnsetAttributes kml_linestyle_color;        FME_SetAttribute fme_color $color;        if { [string length $opacity]>0 } {           FME_SetAttribute fme_pen_opacity $opacity;        }     } }
+Tcl2 proc KMLStyler_school_fill_setter { color opacity } {     set color [string trim $color {()}];     set opacity [string trim $opacity {()}];     if { [string length $color]>0 } {        FME_UnsetAttributes kml_polystyle_color;        FME_SetAttribute fme_fill_color $color;        if { [string length $opacity]>0 } {           FME_SetAttribute fme_fill_opacity $opacity;        }     } }
+Tcl2 proc KMLStyler_school_unset_style_url { color fill_color } {     set color [string trim $color {()}];     set fill_color [string trim $fill_color {()}];     if { [string length $color]>0 || [string length $fill_color]>0 } {        FME_UnsetAttributes kml_style_url;     } }
+Tcl2 proc KMLStyler_school_icon_setter { icon scale color opacity } {    set color [string trim $color {()}];    FME_SetAttribute kml_iconstyle_scale $scale;    if { [string length $icon] > 0 } {       FME_SetAttribute kml_icon $icon;       FME_UnsetAttributes kml_icon_href kml_icon_temp_file_location;    };    if { [string length $color] > 0 } {       FME_SetAttribute kml_icon_color $color;       FME_UnsetAttributes kml_iconstyle_color;       if { [string length $opacity]>0 } {           FME_SetAttribute kml_icon_opacity $opacity;       }    } }
+Tcl2 proc KMLStyler_school_label_setter { scale color opacity } {    set color [string trim $color {()}];    FME_SetAttribute kml_labelstyle_scale $scale;    if { [string length $color] > 0 } {       FME_SetAttribute kml_label_color $color;       FME_UnsetAttributes kml_labelstyle_color;       if { [string length $opacity]>0 } {           FME_SetAttribute kml_label_opacity $opacity;       }    } }
+# This macro and TCL block selects the correct line width attribute,
+# based on the line width units parameter.
+MACRO KMLStyler_school_line_width_attr
+INCLUDE [    if { {PIXELS} == {PIXELS} } {       puts {MACRO KMLStyler_school_line_width_attr kml_linestyle_width }    } elseif { {PIXELS} == {METERS} } {       puts {MACRO KMLStyler_school_line_width_attr kml_linestyle_physical_width }    }    ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { KMLStyler_school }    INPUT  FEATURE_TYPE AttributeCreator_School_OUTPUT    OUTPUT { FEATURE_TYPE KMLStyler_school_KMLStyled         @Tcl2(KMLStyler_school_common_style_setter)         @Tcl2("KMLStyler_school_icon_setter {B2} {0.3} {()} {1.0} ")         @Tcl2("KMLStyler_school_pen_setter {()} {1.0} ")         @Tcl2("KMLStyler_school_fill_setter {()} {0.4} ")         @Tcl2("KMLStyler_school_unset_style_url {()} {()} " )         $(KMLStyler_school_line_width_attr) "1.0"         kml_linestyle_label_visibility 1         @Tcl2("KMLStyler_school_label_setter {0.6} {()} {1.0} ")          }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { AttributeCreator_Shopping }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE TestFilter_Shopping    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    NUM_OF_COLUMNS 5    ATTR_ACTION { "" "category" "SET_TO" "Shopping" "varchar<openparen>200<closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeCreator_Shopping_OUTPUT        }
+# -------------------------------------------------------------------------
+Tcl2 proc KMLStyler_shopping_common_style_setter {} {     if { {Yes} == {No} } {        FME_SetAttribute kml_common_style {KMLStyler_shopping};     } }
+Tcl2 proc KMLStyler_shopping_pen_setter { color opacity } {     set color [string trim $color {()}];     set opacity [string trim $opacity {()}];     if { [string length $color]>0 } {        FME_UnsetAttributes kml_linestyle_color;        FME_SetAttribute fme_color $color;        if { [string length $opacity]>0 } {           FME_SetAttribute fme_pen_opacity $opacity;        }     } }
+Tcl2 proc KMLStyler_shopping_fill_setter { color opacity } {     set color [string trim $color {()}];     set opacity [string trim $opacity {()}];     if { [string length $color]>0 } {        FME_UnsetAttributes kml_polystyle_color;        FME_SetAttribute fme_fill_color $color;        if { [string length $opacity]>0 } {           FME_SetAttribute fme_fill_opacity $opacity;        }     } }
+Tcl2 proc KMLStyler_shopping_unset_style_url { color fill_color } {     set color [string trim $color {()}];     set fill_color [string trim $fill_color {()}];     if { [string length $color]>0 || [string length $fill_color]>0 } {        FME_UnsetAttributes kml_style_url;     } }
+Tcl2 proc KMLStyler_shopping_icon_setter { icon scale color opacity } {    set color [string trim $color {()}];    FME_SetAttribute kml_iconstyle_scale $scale;    if { [string length $icon] > 0 } {       FME_SetAttribute kml_icon $icon;       FME_UnsetAttributes kml_icon_href kml_icon_temp_file_location;    };    if { [string length $color] > 0 } {       FME_SetAttribute kml_icon_color $color;       FME_UnsetAttributes kml_iconstyle_color;       if { [string length $opacity]>0 } {           FME_SetAttribute kml_icon_opacity $opacity;       }    } }
+Tcl2 proc KMLStyler_shopping_label_setter { scale color opacity } {    set color [string trim $color {()}];    FME_SetAttribute kml_labelstyle_scale $scale;    if { [string length $color] > 0 } {       FME_SetAttribute kml_label_color $color;       FME_UnsetAttributes kml_labelstyle_color;       if { [string length $opacity]>0 } {           FME_SetAttribute kml_label_opacity $opacity;       }    } }
+# This macro and TCL block selects the correct line width attribute,
+# based on the line width units parameter.
+MACRO KMLStyler_shopping_line_width_attr
+INCLUDE [    if { {PIXELS} == {PIXELS} } {       puts {MACRO KMLStyler_shopping_line_width_attr kml_linestyle_width }    } elseif { {PIXELS} == {METERS} } {       puts {MACRO KMLStyler_shopping_line_width_attr kml_linestyle_physical_width }    }    ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { KMLStyler_shopping }    INPUT  FEATURE_TYPE AttributeCreator_Shopping_OUTPUT    OUTPUT { FEATURE_TYPE KMLStyler_shopping_KMLStyled         @Tcl2(KMLStyler_shopping_common_style_setter)         @Tcl2("KMLStyler_shopping_icon_setter {D2} {0.3} {()} {1.0} ")         @Tcl2("KMLStyler_shopping_pen_setter {()} {1.0} ")         @Tcl2("KMLStyler_shopping_fill_setter {()} {0.4} ")         @Tcl2("KMLStyler_shopping_unset_style_url {()} {()} " )         $(KMLStyler_shopping_line_width_attr) "1.0"         kml_linestyle_label_visibility 1         @Tcl2("KMLStyler_shopping_label_setter {0.6} {()} {1.0} ")          }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { AttributeCreator_Airports }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE TestFilter_Airports    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    NUM_OF_COLUMNS 5    ATTR_ACTION { "" "category" "SET_TO" "Airports" "varchar<openparen>200<closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeCreator_Airports_OUTPUT        }
+# -------------------------------------------------------------------------
+Tcl2 proc KMLStyler_airports_common_style_setter {} {     if { {Yes} == {No} } {        FME_SetAttribute kml_common_style {KMLStyler_airports};     } }
+Tcl2 proc KMLStyler_airports_pen_setter { color opacity } {     set color [string trim $color {()}];     set opacity [string trim $opacity {()}];     if { [string length $color]>0 } {        FME_UnsetAttributes kml_linestyle_color;        FME_SetAttribute fme_color $color;        if { [string length $opacity]>0 } {           FME_SetAttribute fme_pen_opacity $opacity;        }     } }
+Tcl2 proc KMLStyler_airports_fill_setter { color opacity } {     set color [string trim $color {()}];     set opacity [string trim $opacity {()}];     if { [string length $color]>0 } {        FME_UnsetAttributes kml_polystyle_color;        FME_SetAttribute fme_fill_color $color;        if { [string length $opacity]>0 } {           FME_SetAttribute fme_fill_opacity $opacity;        }     } }
+Tcl2 proc KMLStyler_airports_unset_style_url { color fill_color } {     set color [string trim $color {()}];     set fill_color [string trim $fill_color {()}];     if { [string length $color]>0 || [string length $fill_color]>0 } {        FME_UnsetAttributes kml_style_url;     } }
+Tcl2 proc KMLStyler_airports_icon_setter { icon scale color opacity } {    set color [string trim $color {()}];    FME_SetAttribute kml_iconstyle_scale $scale;    if { [string length $icon] > 0 } {       FME_SetAttribute kml_icon $icon;       FME_UnsetAttributes kml_icon_href kml_icon_temp_file_location;    };    if { [string length $color] > 0 } {       FME_SetAttribute kml_icon_color $color;       FME_UnsetAttributes kml_iconstyle_color;       if { [string length $opacity]>0 } {           FME_SetAttribute kml_icon_opacity $opacity;       }    } }
+Tcl2 proc KMLStyler_airports_label_setter { scale color opacity } {    set color [string trim $color {()}];    FME_SetAttribute kml_labelstyle_scale $scale;    if { [string length $color] > 0 } {       FME_SetAttribute kml_label_color $color;       FME_UnsetAttributes kml_labelstyle_color;       if { [string length $opacity]>0 } {           FME_SetAttribute kml_label_opacity $opacity;       }    } }
+# This macro and TCL block selects the correct line width attribute,
+# based on the line width units parameter.
+MACRO KMLStyler_airports_line_width_attr
+INCLUDE [    if { {PIXELS} == {PIXELS} } {       puts {MACRO KMLStyler_airports_line_width_attr kml_linestyle_width }    } elseif { {PIXELS} == {METERS} } {       puts {MACRO KMLStyler_airports_line_width_attr kml_linestyle_physical_width }    }    ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { KMLStyler_airports }    INPUT  FEATURE_TYPE AttributeCreator_Airports_OUTPUT    OUTPUT { FEATURE_TYPE KMLStyler_airports_KMLStyled         @Tcl2(KMLStyler_airports_common_style_setter)         @Tcl2("KMLStyler_airports_icon_setter {M4} {0.6} {()} {1.0} ")         @Tcl2("KMLStyler_airports_pen_setter {()} {1.0} ")         @Tcl2("KMLStyler_airports_fill_setter {()} {0.4} ")         @Tcl2("KMLStyler_airports_unset_style_url {()} {()} " )         $(KMLStyler_airports_line_width_attr) "1.0"         kml_linestyle_label_visibility 1         @Tcl2("KMLStyler_airports_label_setter {0.6} {()} {1.0} ")          }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { AttributeCopier_kml_name }    INPUT  FEATURE_TYPE KMLStyler_apartments_KMLStyled    INPUT  FEATURE_TYPE KMLStyler_school_KMLStyled    INPUT  FEATURE_TYPE KMLStyler_shopping_KMLStyled    INPUT  FEATURE_TYPE KMLStyler_airports_KMLStyled    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    MISSING_INPUT_ATTR_HANDLING { COPY PRESERVE }    ATTR_ACTION { "LANAME" "kml_name" "COPY" "" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeCopier_kml_name_OUTPUT        }
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCopier_kml_name_OUTPUT TO OGCKML __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Landmarks<closeparen> COORDINATE_SYSTEM LL84 GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+OGCKML_1_DEF Landmarks   KML21_INFORMATION_POINT_ICON ""   KML21_OPACITY                ""   KML21_FILL_OPACITY           ""   KML21_PEN_OPACITY            ""   KML21_ICON_COLOR             ""   KML21_FILL_COLOR             ""   KML21_PEN_COLOR              ""   KML21_SORT_BY_ATTRIBUTE      ""   KML21_ATTR_IN_DESCRIPTION    ""   KML21_HTML_DESCRIPTIONS      ""   KML21_DOCUMENT_FILENAME      ""   KML21_CREATE_FOLDER_FOR_FEATURE_TYPE yes   CFCC                         kml_char(4)   FILE                         kml_char(20)   LALAT                        kml_char(20)   LALONG                       kml_char(20)   LANAME                       kml_char(31)   LAND                         kml_char(20)   MODULE                       kml_char(9)   OBJECTID                     kml_char(20)   SOURCE                       kml_char(2)
